@@ -1,0 +1,268 @@
+<html>
+<head>
+	<style>
+	
+	<title>emergency_contact info</title>
+     
+     h3{
+	font-family: Arial Black;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+}
+table{
+	font-family: Timen New Roman;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+h1{
+    background-color: blue;
+    color: lightblue;
+}
+h3{
+    background-color: blue;
+    color: lightblue;
+}
+u{
+   background-color: blue;
+    color: lightblue;
+}
+input[type=text], input[type=number], input[type=email], input[type=date]
+{
+	width: 50%;
+	padding: 8px 10px;
+}
+input[type=submit], input[type=reset]
+{
+	width: 25%;
+	padding: 8px 10px;
+}
+</style>
+</head>
+<body
+	bgcolor=lightblue>
+	<h1><u>Emergency_Contact Information</u></h3>
+<table align="left" cellpadding="10" width="900" height="10">
+<form action="C:/Users/user/Documents/submit.html">
+	<tr>
+		<td>
+		    First Name
+		</td>
+		    <td>
+		    	<input type="text" name="First Name" /required>
+		    	<div id="text"></div>
+		    </td>
+
+		<td>
+           <h3><u>Emergency_contact info</u></h3>
+        </td>
+    </tr>  
+    <tr>
+    	<td>
+        	last name
+        </td>
+        <td><input type="text" name="last name" /required>
+        	<div id="text1"></div>
+        </td>
+        <td>
+		    Name
+		</td>
+		    <td>
+		    	<input type="text" name="Name" /required>
+		    	<div id="text2"></div>
+		    </td>
+	</tr>
+	<tr>
+    	<td>
+    		Gender
+    	</td>
+        <td>
+         	<select>
+         		<option input type="checkbox" value="male"/required>male</option>
+         		<option input type="checkbox" value="female"/required>female</option>
+         		<option input type="checkbox" value="other"/required>other</option>
+         	</select>
+        </td>
+			<td>
+		    		Relationship
+		    </td>
+		    <td>
+		    	<input type="text" name="Relationship" /required>
+		    	<div id="text3"></div>
+		    </td>
+	</tr>
+	<tr>
+			<td>
+         	    Date of birth
+         	</td>
+         	<td>
+         	<input type="date" name="Date Of Birth" /required><sub>[dd-mm-yyyy]</sub>
+             <div id="DOB"></div>
+         	</td>
+         	<td>
+		    		Address
+		    </td>
+		    <td>
+		    	<textarea name="text" name="Address" row="10" cols="20"/required></textarea>
+		    	<div id="text4"></div>
+		    </td>
+
+    </tr>
+    <tr>
+	        <td>
+		     <h3><u>Medical_Inforamation</u></h3>
+			</td>
+		    <td>
+
+	</tr>
+	 <tr>
+		   	<td>
+				Hospital Preference
+			</td>
+		 	<td>
+		 		<input type="text" name="Hospital Preference" /required>
+		 		<div id="text6"></div>
+		    </td> 
+		   	<td>
+		    	city
+		    </td>
+		    <td>
+		    	<input type="text" name="Name"/required>
+		    	<div id="text5"></div>
+		    </td>	
+	</tr>
+	<tr>
+			<td>
+    			Insurence Company
+    		</td>
+    		<td>
+    			<input type="text" name="Insurence Company" /required>
+    			<div id="text7"></div>
+		    </td>
+	
+			<td>
+		    	state
+		    </td>
+            <td>
+            	<select>
+            		<option input type="checkbox" value="--select--" /required>--select--</option>
+                    <option input type="checkbox" value="Tamilnadu" /required>Tamilnadu </option>
+                    <option input type="checkbox" value="kerala" /required>kerala </option>
+                    <option input type="checkbox" value="karnadaka" /required>karnadaka </option>
+                </select>
+                    <div id="checkbox"></div>
+            </td>	    
+    </tr>
+    <tr>
+        	<td>
+				Policy Number
+			</td>
+		 	<td>
+		 		<input type="Number" name="Police Number" /required>
+		 		<div id="Number2"></div>
+		    </td>
+        	<td>
+        		country
+        	</td>
+        	<td>
+        		<select>
+        			<option input type="checkbox" value="--select--" /required>--select--</option>
+                    <option input type="checkbox" value="India" /required>India </option>
+                    <option input type="checkbox" value="USA" /required>USA </option>
+                    <option input type="checkbox" value="London" /required>Londan </option>
+                </select>
+                    <div id="checkbox1"></div>
+            </td> 
+    </tr>
+    <tr>	
+    		<td>
+		       Physician's Name
+			</td> 
+			<td>
+		    	<input type="text" name="Physician's Name" /required>
+		    	<div id="text8"></div>
+		    </td>
+	    
+			<td>
+		    	Home Phone
+		    </td>
+		    <td>
+		    	<input type="number" name="Home Phone" /required>	
+		    	<div id="Number"></div>	    
+		    </td>
+	</tr>	    
+	<tr>
+		    <td>
+		    	Phone Number
+		    </td>
+		    <td>
+		        	<input type="number" name="Phone Number" maxlength="10" /required>
+		        	<div id="Number3"></div>
+		    </td> 
+		    <td>
+		    	Work Phone
+		    </td>
+		    <td>
+		    	<input type="number" name="Work Phone" maxlength="10" /required>
+                 <div id="Number1"></div>
+		    </td> 
+	</tr> 
+	<tr>
+		    <td>
+		    	Allergies(if any)
+		    </td>
+		    <td>
+		    	<textarea name="text" name="Allergies(if any)" row="10" cols="20" /required></textarea>
+		    	<div id="text9"></div>
+		    </td>
+	</tr>
+    <tr>
+    		<td>
+	   		<td colspan="2" align="center">
+			<input type="submit" name="submit">
+       		<input type="Reset" name="Reset">
+            </td>
+ 	  		</td>
+	</tr>
+
+      <script>
+          document.getElementById("text").innerHTML = "Enter first name";
+          document.getElementById("text1").innerHTML = "Enter last name";
+          document.getElementById("DOB").innerHTML = "select DOB";
+          document.getElementById("text2").innerHTML = "Enter the name";
+          document.getElementById("text3").innerHTML = "Enter the Relationship";
+          document.getElementById("text4").innerHTML = "Enter the address";
+          document.getElementById("text5").innerHTML = "Enter the city";
+          document.getElementById("checkbox").innerHTML = "Enter the state";
+          document.getElementById("checkbox1").innerHTML = "Enter the country";
+          document.getElementById("Number").innerHTML = "Enter the Home number";
+          document.getElementById("Number1").innerHTML = "Enter the work number";
+          document.getElementById("text6").innerHTML = "Enter the preference";
+          document.getElementById("text7").innerHTML = "Enter the Ins.company";
+          document.getElementById("Number2").innerHTML = "Enter the policy number";
+          document.getElementById("text8").innerHTML = "Enter the Physician's Name ";
+          document.getElementById("Number3").innerHTML = "Enter the PH.number";
+          document.getElementById("text9").innerHTML = "Enter the Allergies";
+
+      </script>
+
+
+</form>
+</table>
+</body>
+</html>    
+
+
+
+
+
+
+
+
+

@@ -1,130 +1,239 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medilab Bootstrap Template Demo</title>
+  <title> Template Demo</title>
   <meta name="robots" content="noindex, nofollow">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <style type="text/css">
-    .centered {
-                position: absolute;
-                top: 47%;
-                left: 50%;
-                transform: translate(-160%, -50%);
-                font-size: 30px;
-                background-color: saddlebrown;
-                opacity: 50%;
-                color: white;
-              }
+
   </style>
-  </head>
+</head>
 
 <body>
   <header id="header" class="">
 
-  	<div class="offcanvas offcanvas-start" id="demo1" style="background-color: black;">
-  <div class="offcanvas-header">
-    <h1 class="offcanvas-title container-fluid" style="color: white;">HOME</h1>
-    <button type="button" class="btn-close" style="background-color: white;" data-bs-dismiss="offcanvas"></button>
-  </div>
-  <div class="offcanvas-body">
-    <table class="table table-bordered table-hover">
- 		<tbody>
-        <a class="nav-link" style="background-color: purple; color: white;" href="#"><h3>About Us</h3> </a>
-      
-        <a class="nav-link"  style="color: white;" href="#"><h3>Customer Support 24*7</h3></a>
-      
-        <a class="nav-link" style="background-color: purple; color: white;" href="#"><h3>Privacy & Policy</h3></a>
+    <div class="offcanvas offcanvas-start" id="demo1" style="background-color: rgb(12, 11, 12);">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title container-fluid" style="color: rgb(88, 16, 44);">HOME</h1>
+        <button type="button" class="btn-close" style="background-color: rgb(231, 130, 181);"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <table class="table table-bordered table-hover">
+          <tbody>
+            <a class="nav-link" style="background-color: rgb(54, 4, 32); color: rgb(242, 243, 239);" href="#">
+              <h3>About Us</h3>
+            </a>
 
-        <a class="nav-link" style="color: white;" href="Emergency_contact1.html"><h3>Emergency Contact Fillup</h3></a>
-      
-  </tbody>
-</table>
-  </div>
-</div>
- 
+            <a class="nav-link" style="color: rgba(242, 248, 248, 0.925);" href="Contact_Page.html">
+              <h3>Customer Support 24*7</h3>
+            </a>
+
+            <a class="nav-link" style="background-color: rgba(56, 16, 36, 0.863); color: rgba(228, 237, 241, 0.863);"
+              href="#">
+              <h3>Privacy & Policy</h3>
+            </a>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-	  <div class="container-fluid">
-	    <ul class="navbar-nav">
-	    		<div class="container">
-	  			<img src="tamilan_logo.jpg" class="rounded" alt="Tamizhan Logo" width="60" height="35" data-bs-toggle="tooltip" title="Tamizhan 2.o"> 
-	  			</div>
-	      <li class="nav-item">
-	        <button type="button" class="btn btn-primary" title="Home" data-bs-toggle="offcanvas" data-bs-target="#demo1">
-	        	<i class="ion-ios-home-outline"></i>
-	        	</button>
-	      </li>
-	      <li class="nav-item">
-	        <button type="button" class="btn btn-dark">License/Pricing</button>
-	      </li>
-	      <li class="nav-item">
-	        <button type="button" class="btn btn-dark">Support</button>
-	      </li>
-	      <li class="nav-item">
-	       <button type="button" class="btn btn-dark">Contact</button>
-	      </li>
-	    </ul>
-	    <form class="d-flex">
-	      	<input type="fa-search" class="search" placeholder="Search">
-	      	<button class="btn btn-primary" type="button">Search<i class="fas fa-search"></i></button>
-	      	<div class="dropdown">
-			    <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">
-			      Employee's List
-			    </button>
-			    <ul class="dropdown-menu">
-			      <li><a class="dropdown-item" href="#">Manager's List</a></li>
-			      <li><a class="dropdown-item" href="#">Staff's List</a></li>
-			      <li><a class="dropdown-item" href="#">Driver's List</a></li>
-			    </ul>
-  			</div>
-	      </form>
-	  </div>
-	</nav>
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <div class="container">
+          </div>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary" title="Home" data-bs-toggle="offcanvas"
+              data-bs-target="#demo1">
+              <i class="ion-ios-home-outline"></i>
+            </button>
+          </li>
+          <li class="nav-item">
+            <a href="book.html"><button type="button" class="btn btn-dark">Tickets</button></a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact_Page.html"><button type="button" class="btn btn-dark">Support</button></a>
+          </li>
+          <li class="nav-item">
+            <a href="page3.html"><button type="button" class="btn btn-dark">Contact</button></a>
+          </li>
+          <!-- <li class="nav-item">
+	      	<div class="float-end">
+	      	<input type="text" name="search" id="search" ><button type="button" class="btn btn-primary" icon><i class="ion-search-outline"></i>Search</button> 
+	      </div>
+	      </li> -->
+        </ul>
+      </div>
+      </form>
+      </div>
+    </nav>
   </header>
-  		
-  <div class="container">
-  <img src="Boeing_safety.jpg" alt="Snow" style="width:1100px; height: 300px;">
-  <div class="centered">Saftey at Tamizhan 2.o</div>
-</div>
-<div class="container row">
-  <div class="col sp-6">
-    <h2 class="container mt-4">Saftey Information</h2>
-    <h4 class="container mt-4">Nothing is more important than safety.</h4>
-    <p class="container mt-4">We are more committed than ever to strengthening our culture of safety through continuous improvement, learning and innovation. Teammates from across the enterprise are taking a proactive, unbiased and collaborative approach to all aspects of product safety, compliance and airworthiness. In all situations, every employee is empowered and encouraged to speak up if they have any safety or quality concern.
-    </p>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="aero3.jpg" alt="Logo" class="d-block" style="width:100%" height="500px">
+        <div class="carousel-caption">
+          <h2>World's Biggest Company</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="flight.jpg" alt="Air_plane" class="d-block" style="width:100%" height="500px">
+        <div class="carousel-caption">
+          <h2>World's Greatest Service</h2>
+          <p>Zero Complaints and 100% Customer Satisfication</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="aero4.jpg" alt="Back_Photo" class="d-block" style="width:100% " height="500px">
+        <div class="carousel-caption">
+          <h3>First Class Safety Assurance</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="aero5.jpg" alt="Back_Photo" class="d-block" style="width:100% " height="500px">
+        <div class="carousel-caption">
+          <h3>24/7 customer Service</h3>
+          <a href="Contact_Page.html"><button type="button" class="btn btn-outline-light">Contact Us</button></a>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
   </div>
-  <div class="col sp-6">
-    <div class="container"><h3 class="container mt-4 "></h3><img src="aero_safety.jpg" class="rounded container mt-4" alt="Tamizhan Logo" width="240" height="250"> 
+  <div class="container row">
+    <div class="col sp-6">
+      <h2 class="container mt-4">Saftey Information</h2>
+      <h4 class="container mt-4">Nothing is more important than safety.</h4>
+      <p class="container mt-4">We are more committed than ever to strengthening our culture of safety through
+        continuous improvement, learning and innovation. Teammates from across the enterprise are taking a proactive,
+        unbiased and collaborative approach to all aspects of product safety, compliance and airworthiness. In all
+        situations, every employee is empowered and encouraged to speak up if they have any safety or quality concern.
+      </p>
+    </div>
+    <div>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-TTrpTLu2hDPXmPc61yVMoI402Qvcu2DRkMZ16R9zGqZhcqLo6vLPqsgVBzGY7pmvB" crossorigin="anonymous">
+      <style>
+        .container {
+          margin-top: 50px;
+        }
+
+        .card {
+          margin-bottom: 20px;
+        }
+
+        .card-img-top {
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          display: block;
+        }
+      </style>
+      </head>
+
+      <body>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="aircrsr.jpeg" class="card-img-top" alt="Aircraft Structures">
+                <div class="card-body">
+                  <h5 class="card-title">Aircraft Structures</h5>
+                  <p class="card-text">Strength & Vibration</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="fluidmech.jpg" class="card-img-top" alt="Fluid & Mechanical Systems">
+                <div class="card-body">
+                  <h5 class="card-title">Fluid & Mechanical Systems</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="avioni.jpeg" class="card-img-top" alt="Avionic & Electrical Systems">
+                <div class="card-body">
+                  <h5 class="card-title">Avionic & Electrical Systems</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="loadperf.jpeg" class="card-img-top" alt="Aircraft Loads & Performance">
+                <div class="card-body">
+                  <h5 class="card-title">Aircraft Loads & Performance</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="Occupant.jpeg" class="card-img-top" alt="Occupant Safety">
+                <div class="card-body">
+                  <h5 class="card-title">Occupant Safety</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="weaponsys.jpeg" class="card-img-top" alt="Weapon Systems">
+                <div class="card-body">
+                  <h5 class="card-title">Weapon Systems</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6ZYgfuA2AA0+9mzQzTQ9NfWm1RSjoGxEk/2Ldq3P9RMqBhLXJw/4FTjwWU0Kbm+0"
+          crossorigin="anonymous"></script>
+    </div>
+    <div class="col sp-6">
+      <div class="container">
+        <h3 class="container mt-4 "></h3><img src="aero_safety.jpg" class="rounded container mt-4" alt="Logo"
+          width="300" height="350">
+      </div>
+    </div>
   </div>
-  </div>
-</div>
 
   <div class="container">
-  	<ul class="pagination">
-  <li class="page-item"><a class="page-link" href="bootsstrap.html">Previous</a></li>
-  <li class="page-item"><a class="page-link" href="bootsstrap.html">1</a></li>
-  <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
-  <li class="page-item"><a class="page-link" href="page3.html">3</a></li>
-  <li class="page-item"><a class="page-link" href="page3.html">Next</a></li>
-</ul>
-  	
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="bootsstrap.html">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="bootsstrap.html">1</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="page3.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="page3.html">Next</a></li>
+    </ul>
   </div>
-<div class="container-fluid" style="background-color:black; color: white;">
-    <h4>Follow us on:</h4><center>
-  <button type="button" class="btn btn-primary">Facebook<i class="ion-ios-logo-facebook"></i></button>
-  <button type="button" class="btn btn-danger">Instagram</button>
-  <button type="button" class="btn btn-success">Whatsapp</button>
-  <button type="button" class="btn btn-info">Twitter</button></center>
-  <br><br></div>
- 
 
-     
+
+
 </body>
 
 </html>

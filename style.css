@@ -1,48 +1,48 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-    background: linear-gradient(to right , #2a0845,#6441a5);
+body {
+    background: linear-gradient(to right, #2a0845, #6441a5);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
-    background-color: rgb(216,214,214);
-    box-shadow: rgb(0,0,0) 0px 5px 15px;
+.container {
+    background-color: rgb(216, 214, 214);
+    box-shadow: rgb(236, 216, 238) 0px 5px 15px;
     width: 400px;
 }
 
-.header{
+.header {
     color: #fff;
     text-align: center;
-    background-color: #2a0845;
-    padding: 20px 40px;
-    border-bottom: 2px solid #494848;
+    background-color: rgb(206, 201, 135);
+    padding: 20px 20px;
+    border-bottom: 2px solid #c9b8b8;
 }
 
-.form{
+.form {
     padding: 30px 40px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
 }
 
-.form-group label{
+.form-group label {
     display: block;
     margin-bottom: 5px;
 }
 
-.form-group input{
+.form-group input {
     border: 2px solid #f0f0f0;
     display: block;
     border-radius: 4px;
@@ -51,18 +51,18 @@ body{
     padding: 10px;
 }
 
-.form input::placeholder{
-    color: #2a0845;
+.form input::placeholder {
+    color: #08020e;
 }
 
-.form-group i{
+.form-group i {
     position: absolute;
     right: 10px;
     top: 35px;
     visibility: hidden;
 }
 
-.form-group span{
+.form-group span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -73,30 +73,30 @@ body{
 }
 
 
-.form-group.success input{
-    border-color: #2ecc71;
+.form-group.success input {
+    border-color: #141414;
 }
 
-.form-group.error input{
-    border-color: #e74c3c;
+.form-group.error input {
+    border-color: #993b31;
 }
 
-.form-group.error span{
+.form-group.error span {
+    color: #831a0f;
+    visibility: visible;
+}
+
+.form-group.success i.ion-ios-checkmark {
+    visibility: visible;
+    color: #1f6b3e;
+}
+
+.form-group.error i.ion-android-alert {
+    visibility: visible;
     color: #e74c3c;
-    visibility: visible;
 }
 
-.form-group.success i.ion-ios-checkmark{
-    visibility: visible;
-    color: #2ecc71;
-}
-
-.form-group.error i.ion-android-alert{
-    visibility: visible;
-    color: #e74c3c;
-}
-
-.form #submit{
+.form #submit {
     background-color: #2a0845;
     border: none;
     outline: none;
@@ -109,15 +109,16 @@ body{
     transition: all .5s;
 }
 
-.form #submit:hover{
-    background-color: #6441a5;
+.form #submit:hover {
+    background-color: #dfd5f1;
 }
 
-@media only screen and (max-width : 500px){
-    .form{
+@media only screen and (max-width : 500px) {
+    .form {
         width: 100%;
     }
-    .form-group span{
+
+    .form-group span {
         font-size: xx-small;
     }
 }
